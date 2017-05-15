@@ -1,0 +1,82 @@
+.slider {
+	display: flex;
+	flex-direction: column;
+	min-height: 556px;
+}
+
+.headlines {
+	color: #333333;
+	text-align: center;
+	font-size: 1.375rem;
+	word-spacing: 7px;
+	margin-top: 100px;
+	margin-bottom: 35px;
+}
+
+.flex-row {
+	display: flex;	
+	justify-content: space-between;
+}
+
+.step_bg-1 {
+	background-image: url("../img/step-1.jpg");
+}
+
+.step_bg-2 {
+	background-image: url("../img/step-2.jpg");
+}
+
+.step_bg-3 {
+	background-image: url("../img/step-3.jpg");
+}
+
+.step {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding: 20px;
+	height: 400px;
+	width: 300px;
+}
+
+.step__button {
+	margin-bottom: 20px;
+}
+
+.slider__step {
+	background-repeat: no-repeat;
+	color: #fff;
+	position: relative;
+}
+
+.step__header {
+	font-size: 1.5rem;
+	word-spacing: 8px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+.step__content {
+	font-size: 0.875rem;
+	word-spacing: 4px;
+	line-height: 1.4;
+}
+
+.arrow {
+	display: block;
+	position: absolute;
+	top: 155px;
+	height: 55px;
+	width: 30px;
+}
+
+.arrow-left {
+background-image: url("../img/step-left.png");
+left: 20px;
+}
+
+.arrow-right {
+background-image: url("../img/step-right.png");
+right: 20px;
+}

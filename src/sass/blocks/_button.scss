@@ -1,0 +1,31 @@
+.button {
+	display: inline-block;
+	padding: 14px 24px;
+	border-radius: 20px;
+	font-size: 0.875rem;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+
+	&_primary {
+		background-color: $primary-color;
+		color: #fff;
+	}
+
+	&_secondary {
+		background-color: #fff;
+		color: $primary-color;
+		border: solid 2px $primary-color;
+
+	}
+
+
+	&_small {
+		padding: 7px 12px;
+		border-radius: 8px;
+		font-size: 0.625rem;
+		letter-spacing: 3px;
+		word-spacing: 7px;
+		text-transform: uppercase;
+	}
+
+}
