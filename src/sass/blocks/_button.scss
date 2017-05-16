@@ -1,11 +1,13 @@
 .button {
 	display: inline-block;
 	padding: 14px 24px;
-	border-radius: 20px;
+	border-radius: 24px;
+	border: solid 2px transparent;
 	font-size: 0.875rem;
 	letter-spacing: 1px;
 	word-spacing: 4px;
-	border: solid 2px transparent;
+	text-decoration: none;
+	color: #fff;
 
 	&_primary {
 		background-color: $primary-color;
@@ -32,7 +34,7 @@
 
 		&:hover {
 			background-color: $primary-color;
-			border: solid 2px $primary-color; /*Watch at border!*/
+			border: solid 2px $primary-color;
 			color: #fff;
 		}
 
@@ -47,11 +49,10 @@
 
 	&_small {
 		padding: 7px 12px;
-		border-radius: 8px;
+		border-radius: 12px;
 		font-size: 0.625rem;
 		letter-spacing: 3px;
 		word-spacing: 7px;
 		text-transform: uppercase;
 	}
-
 }

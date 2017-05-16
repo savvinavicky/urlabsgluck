@@ -6,7 +6,13 @@
 	background-repeat: no-repeat;
 }
 
-.promo__logo:hover {
+.promo__logo {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.promo__logo:hover, .promo__nav-link:hover {
 	color: $primary-color;
 }
 
@@ -14,15 +20,6 @@
 	display: flex;
 	justify-content: space-between;
 	padding-top: 50px;
-}
-
-.flex-row a {
-	text-decoration: none;
-	color: #fff;
-}
-
-.flex-row > a {
-	text-transform: uppercase;
 }
 
 .promo__nav {
@@ -33,14 +30,31 @@
 	margin: 0 0 0 40px;
 }
 
-.promo__content {
+.promo__nav-link {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 18px;
+}
+
+.promo__with-border {
+	border: solid 2px #fff;
+	border-radius: 20px;
+}
+
+.promo__with-border:hover {
+	background-color: $primary-color;
+	border-color: $primary-color;
+	color:#fff;
+}
+
+.promo__description {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-top: 160px;
 }
 
-.promo__content > h1 {
+.promo__header {
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 3.25rem;
@@ -48,18 +62,12 @@
 	width: 480px;
 }
 
-.promo__content > p {
+.promo__content {
 	font-size: 1.5rem;
 	word-spacing: 9px;
 }
 
-.promo__content > a {
-	font-size: 0.875rem;
-	word-spacing: 6px;
-}
-
-.promo__content-elem {
-	text-decoration: none;
+.promo__main {
 	color: #fff;
 	margin-bottom: 40px;
 }
