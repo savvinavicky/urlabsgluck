@@ -6,6 +6,10 @@
 	background-repeat: no-repeat;
 }
 
+.promo__logo:hover {
+	color: $primary-color;
+}
+
 .flex-row	{
 	display: flex;
 	justify-content: space-between;
