@@ -1,6 +1,35 @@
 .partners {
+	min-height: 366px;
+}
+
+.partners__content {
 	display: flex;
 	flex-direction: column;
-	min-height: 470px;
+	align-items: center;
+	padding-right: 20px;
+	width: 220px;
+}
+
+.partners__header {
+	color: #333333;
+	font-size: 0.875rem;
+	word-spacing: 4px;
+	line-height: 2;
+	margin-bottom: 16px;
+}
+
+.partners__text {
+	color: #333333;
+	text-align: center;
+	font-size: 0.875rem;
+	word-spacing: 4px;
+	line-height: 1.2;
+}
+
+.partners__button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
 }
 

@@ -4,6 +4,8 @@
 	min-height: 700px;
 	background-image: url("../img/promo.jpg");
 	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 50px;
 }
 
 .promo__logo {
@@ -19,7 +21,6 @@
 .flex-row	{
 	display: flex;
 	justify-content: space-between;
-	padding-top: 50px;
 }
 
 .promo__nav {

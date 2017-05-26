@@ -1,0 +1,54 @@
+.discover {
+	min-height: 1027px;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	&__item {
+		margin-bottom: 21px;
+		height: 310px;
+		width: 300px;
+		text-decoration: none;
+		color: #fff;
+		font-size: 1.375rem;
+		text-align: center;
+		word-spacing: 9px;
+		line-height: 310px;
+
+		&_large {
+			width: 620px;
+		}
+
+		&_activity {
+			background-image: url("../img/activity.jpg")
+		}
+
+		&_health {
+			background-image: url("../img/health.jpg")
+		}
+
+		&_extreme {
+			background-image: url("../img/extreme.jpg")
+		}
+
+		&_games {
+			background-image: url("../img/games.jpg")
+		}
+
+		&_culture {
+			background-image: url("../img/culture.jpg")
+		}
+
+		&_relaxation {
+			background-image: url("../img/relaxation.jpg")
+		}
+
+		&_travelling {
+			background-image: url("../img/travelling.jpg")
+		}
+	}
+}
+
