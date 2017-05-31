@@ -1,0 +1,31 @@
+.search {
+	min-height: 353px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&_paragraph {
+		color: #333333;
+		font-size: 1.125rem;
+		word-spacing: 6px;
+		margin-bottom: 38px;
+	}
+
+	&_field {
+		border: 1px solid #cccccc;
+		border-radius: 3px;
+		padding: 14px;
+		width: 240px;
+		height: 40px;
+		margin-right: 10px;
+	}
+	&_field input[placeholder]{
+		color: #cccccc;
+		font-size: 0.875rem;
+		word-spacing: 4px;
+	}
+}
