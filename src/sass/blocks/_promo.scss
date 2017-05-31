@@ -12,6 +12,14 @@
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
+
+	&_down {
+		color: $primary-color;
+	}
+}
+
+.promo__logo_down:hover {
+	color: #333333;
 }
 
 .promo__logo:hover, .promo__nav-link:hover {
