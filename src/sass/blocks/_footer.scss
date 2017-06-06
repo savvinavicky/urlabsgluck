@@ -4,17 +4,21 @@
 	position: relative;
 	padding-top: 40px;
 	font-size: 0.875rem;
+	font-weight: 600;
 	letter-spacing: 1px;
 	color: #333333;
 	
 	&__header {
-		font-weight: bold;
+		font-family: Montserrat;
+		font-weight: 800;
 		margin-left: 100px;
 		margin-bottom: 16px;
 	}
 
 	&__list-element {
 		text-decoration: none;
+		font-family: Roboto;
+		font-weight: 100;
 		color: #b8b8b8;
 		margin-left: 100px;
 	}
@@ -29,4 +33,16 @@
 	background-image: url(../img/logo-footer.png);
 	background-repeat: no-repeat;
 	background-position: right top;
+}
+
+.footer__logo {
+	font-family: Montserrat;
+	font-weight: 800;
+	text-decoration: none;
+	color: $primary-color;
+	text-transform: uppercase;
+
+	&:hover {
+		color: #333333;
+	}
 }

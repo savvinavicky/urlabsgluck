@@ -3,7 +3,9 @@
 	padding: 14px 24px;
 	border-radius: 24px;
 	border: solid 2px transparent;
+	font-family: Montserrat;
 	font-size: 0.875rem;
+	font-weight: 800;
 	letter-spacing: 1px;
 	word-spacing: 4px;
 	text-decoration: none;
@@ -50,6 +52,8 @@
 	&_small {
 		padding: 7px 12px;
 		border-radius: 12px;
+		font-family: Montserrat;
+		font-weight: 300;
 		font-size: 0.625rem;
 		letter-spacing: 3px;
 		word-spacing: 7px;

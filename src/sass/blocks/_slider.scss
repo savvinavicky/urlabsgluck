@@ -7,7 +7,9 @@
 .headlines {
 	color: #333333;
 	text-align: center;
+	font-family: Montserrat;
 	font-size: 1.375rem;
+	font-weight: 800;
 	word-spacing: 7px;
 	margin-top: 100px;
 	margin-bottom: 35px;
@@ -46,6 +48,8 @@
 }
 
 .step__header {
+	font-family: Montserrat;
+	font-weight: 800;
 	font-size: 1.5rem;
 	word-spacing: 8px;
 	line-height: 1.2;
@@ -53,6 +57,8 @@
 }
 
 .step__content {
+	font-family: Roboto;
+	font-weight: 100;
 	font-size: 0.875rem;
 	word-spacing: 4px;
 	line-height: 1.4;

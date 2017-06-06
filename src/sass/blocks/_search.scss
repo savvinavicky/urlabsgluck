@@ -10,7 +10,9 @@
 
 	&_paragraph {
 		color: #333333;
+		font-family: Roboto;
 		font-size: 1.125rem;
+		font-weight: 100;
 		word-spacing: 6px;
 		margin-bottom: 38px;
 	}
@@ -25,7 +27,9 @@
 	}
 	&_field input[placeholder]{
 		color: #cccccc;
+		font-family: Roboto;
 		font-size: 0.875rem;
+		font-weight: 100;
 		word-spacing: 4px;
 	}
 }
